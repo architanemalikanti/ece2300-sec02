@@ -23,7 +23,7 @@ module Top();
   logic dut_in1;
   logic dut_in2;
   logic dut_out;
-
+//
   PairTripleDetector dut
   (
     .in0 (dut_in0),
