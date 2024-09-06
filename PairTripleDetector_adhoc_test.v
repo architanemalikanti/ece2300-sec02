@@ -21,7 +21,7 @@ module Top();
     .in0 (dut_in0),
     .in1 (dut_in1),
     .in2 (dut_in2),
-    .out (dut_out)
+    .out (dut_out) //port .out to wire dut_out
   );
 
   // An initial block is a special piece of code which starts running at
